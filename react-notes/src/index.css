@@ -1,0 +1,44 @@
+.container{
+
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.note-list{
+display: grid;/* auto responnsive method*/
+grid-gap: 1rem;/* gap betweenn the two grid */
+grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+/* repeat option tells the column repattion where 
+ first param can be no of columns like 2, or 5 
+ for responsive website use auto fit
+second parameter represents the size of the one grid 
+it can be fixed like 240px or can be resposvie through minmax
+minmax(min, max)
+1fr means 1 fraction
+ */
+}
+
+
+
+.note{
+    background-color: rgb(255, 247, 0);
+    
+    border-radius: 15px;
+    min-height: 170px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.note-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
