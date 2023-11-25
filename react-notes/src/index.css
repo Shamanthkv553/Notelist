@@ -7,8 +7,31 @@
     padding-right: 15px;
 }
 
+.search{
+    color: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    border-radius: 15px;
+    margin-bottom: 1.5em;
+}
 
-
+.search input{
+    margin-left: 15px;
+    width: 100%;
+    /* background-color: gray; */
+    border: none;
+    text-decoration: none;
+    background-color: gray;
+   
+}
+.search input:focus{
+    outline: none;
+}
+.search input::placeholder{
+    color:darkslategray
+}
 .note-list{
 display: grid;/* auto responnsive method*/
 grid-gap: 1rem;/* gap betweenn the two grid */
