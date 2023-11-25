@@ -5,8 +5,25 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    min-height: 100vh;
 }
 
+.header{
+    margin-top: 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dark-mode{
+    margin:0;
+    background-color: rgb(13, 49, 49);
+    padding-bottom: 15px;
+
+}
+.dark-mode h1{
+    color:white;
+}
 .search{
     color: black;
     padding: 15px;
@@ -44,6 +61,7 @@ it can be fixed like 240px or can be resposvie through minmax
 minmax(min, max)
 1fr means 1 fraction
  */
+ 
 }
 
 
@@ -96,5 +114,8 @@ textarea:focus{
     cursor: pointer;
 }
 .deleteic:hover{
+    border-radius: 50%;
+    background-color: white;
     cursor: pointer;
+    padding :5px;
 }
